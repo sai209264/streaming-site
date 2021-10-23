@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css">
+  <title>responsive movie website</title>
+</head>
+
+<body onload=getFile()>
+  <div class="trailer">
+    <video src="witcher.mp4" controls="true"></video>
+    <img src="/close.png" onclick="videoToggle()" class="close">
+  </div>
+  <header>
+    <div class="burgerMenu" onclick="myFunction()"><i class="fas fa-bars"></i></div>
+
+
+    <section>
+
+
+      <div class="logo">
+        <a href="index.html">HELLO movies</a>
+      </div>
+      <div class="nav">
+        <a href="home.html">home</a>
+        <a href="#suggestionsdiv">featured</a>
+        <a href="#moviesdiv">movies</a>
+        <a href="#series">tv-series</a>
+      </div>
+    </section>
+    <div class="searchItem">
+      <div class="search">
+        <input type="text" placeholder="type to search">
+        <i class="fas fa-search">
+        </i>
+      </div>
+      <button class="btn">login</button>
+
+    </div>
+  </header>
+  <div class="sliderBottom">
+
+
+    <div class="sliderItem">
+      <div class="slider">
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/movieimage/mandalorian.jfif" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/movieimage/avenger.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/movieimage/witcher2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/movieimage/radhe.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="coming">
+        <h2 class="comingSoonTitle">coming soon</h2>
+        <div class="comingSoonDiv">
+         </div>
+      </div>
+    </div>
+  </div>
+
+  <!--movie section start-->
+  <div class="sugestionContainer" id="suggestionsdiv">
+    <div class="sugetionList">
+      <span class="sugest">sugestion <i class="fas fa-greater-than"></i></span>
+      <span class="featured">featured Movies</span>
+    </div>
+
+  </div>
+
+  <!--movie list start-->
+  <div class="movieContainer">
+    <div class="movieList" id="suggetedList">
+      <div class="movieItem">
+        <a href="#" onclick=videoToggle()><img src="/movieimage/arrival.jpg" alt="" ></a>
+        <h4>Arrival</h4>
+      </div>
+    </div>
+  </div>
+  <!--featured movie end -->\
+
+  <!-- movie sugestion start -->
+  <div class="sugestionContainer" id="moviesdiv">
+    <div class="sugetionList">
+      <span class="sugest">MOVIES <i class="fas fa-greater-than"></i></span>
+      <span class="featured">all</span>
+    </div>
+  </div>
+
+  <!-- movie list start -->
+  <div class="movieContainer" id="movie">
+    <div class="movieList"  id="movies">
+    </div>
+  </div>
+
+
+  <div class="sugestionContainer"  id="series">
+    <div class="sugetionList" >
+      <span class="sugest">TV series <i class="fas fa-greater-than"></i></span>
+      <span class="featured">all</span>
+    </div>
+  </div>
+
+  <div class="movieContainer">
+
+    <div class="movieList" id="seriesList">
+
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="footerLinkItem">
+
+      <div class="footerLinks">
+        <div class="links">
+          <p>hello movies</p>
+          <a href="">hello movies</a>
+          <a href="">TV series</a>
+          <a href="">hello movies</a>
+          <a href="">TV series</a>
+          <a href="">hello movies</a>
+          <a href="">TV series</a>
+        </div>
+        <div class="links">
+          <p>generes</p>
+          <a href="">hello movies</a>
+          <a href="">TV series</a>
+          <a href="">hello movies</a>
+          <a href="">TV series</a>
+          <a href="">hello movies</a>
+          <a href="">TV series</a>
+        </div>
+
+        <div class="links">
+          <p>countrey</p>
+          <a href="">Unites State</a>
+          <a href="">India</a>
+          <a href="">China</a>
+          <a href="">Korea</a>
+          <a href="">nepal</a>
+          <a href="">spain</a>
+        </div>
+      </div>
+
+      <div class="subscribe">
+        <h5>Subscribe</h5>
+        <p class="sbsP">Subscribe to the Hellomovies.com mailing list to receive updates on movies, tv-series and news
+          of top movies.</p>
+        <input class="emailInput" type="text" placeholder="Enter your Email">
+        <button class="sbscribeBtn">Subscribe</button>
+      </div>
+      <div class="copyright">
+        <h2>HELLO movies</h2>
+        <p>Copyright © HELLOmovies.to. All Rights Reserved</p>
+        <p class="disclaim">Disclaimer: hellomovies.com is site does not store any files on its server.
+          All contents are provided by non-affiliated third parties.</p>
+      </div>
+    </div>
+
+
+  </footer>
+  <div id="myDIV" style="display: none;">
+    <div class="mystyle">
+      <a href="home.html">home</a>
+      <a href="">genres</a>
+      <a href="">countrey</a>
+      <a href="">featured</a>
+      <a href="">movies</a>
+      <a href="">tv-series</a>
+      <a href="">top IMDB</a>
+      <a href="">a-z list</a>
+      <a href="">reqeust</a>
+    </div>
+
+  </div>
+
+
+
+
+  <!--javascript-->
+  <script src="main.js"></script>
+</body>
+
+</html>

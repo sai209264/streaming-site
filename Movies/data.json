@@ -1,0 +1,235 @@
+{
+    "series": [
+        {
+            "name": "BATWOMEN",
+            "image": "seriesimage/batwoman.jpeg"
+        },
+        {
+            "name": "FATE",
+            "image": "seriesimage/fate.jpeg"
+        },
+        {
+            "name": "GAME",
+            "image": "seriesimage/game.jpeg"
+        },
+        {
+            "name": "GOTHAM",
+            "image": "seriesimage/gotham.jpg"
+        },
+        {
+            "name": "Haunting hill",
+            "image": "seriesimage/haunting hill.jpg"
+        },
+        {
+            "name": "LEGENDS",
+            "image": "seriesimage/legends.jpg"
+        },
+        {
+            "name": "MIRZAPUR",
+            "image": "seriesimage/mirzapur.jpg"
+        },
+        {
+            "name": "NEVER",
+            "image": "seriesimage/never.jpg"
+        },
+        {
+            "name": "SAHIPLI",
+            "image": "seriesimage/sahipli.jpg"
+        },
+        {
+            "name": "SHELDOM",
+            "image": "seriesimage/sheldom.jpg"
+        },
+        {
+            "name": "STAR GIRL",
+            "image": "seriesimage/star girl.jpg"
+        },
+        {
+            "name": "SNOWP",
+            "image": "seriesimage/snowp.jpg"
+        },
+        {
+            "name": "VAMPIRE",
+            "image": "seriesimage/vampire.jpg"
+        },
+        {
+            "name": "VERGIN",
+            "image": "seriesimage/vergin.jpg"
+        },
+        {
+            "name": "WANDA VISION",
+            "image": "seriesimage/wanda.jpg"
+        },
+        {
+            "name": "WATCH",
+            "image": "seriesimage/watch.jpg"
+        }
+    ],
+    "movies": [
+        {
+            "name": "Aladin",
+            "image": "movieimage/aladin.jpg"
+        },
+        {
+            "name": "ANABELLE",
+            "image": "movieimage/anabelle.jpg"
+        },
+        {
+            "name": "ARRIVAL",
+            "image": "movieimage/arrival.jpg"
+        },
+        {
+            "name": "Avenger",
+            "image": "movieimage/avenger.jpg"
+        },
+        {
+            "name": "BLACK WIDOW ",
+            "image": "movieimage/balckwidowthumb.jpg"
+        },
+        {
+            "name": "BLACK ADAM",
+            "image": "movieimage/black adam.jpg"
+        },
+        {
+            "name": "BLOOD SHOT",
+            "image": "movieimage/bloodshot.jpg"
+        },
+        {
+            "name": "CAPTIAN MARVEL",
+            "image": "movieimage/capmarvel.jpg"
+        },
+        {
+            "name": "FALLOUT",
+            "image": "movieimage/fallout.jpg"
+        },
+        {
+            "name": "JUMANJI",
+            "image": "movieimage/jumanji.jpg"
+        },
+        {
+        "name": "LIFE",
+        "image": "movieimage/lifemovie.jpg"
+        },
+        {
+            "name": "LOKI",
+            "image": "movieimage/loki.jpg"
+        },
+        {
+            "name": "MULAN",
+            "image": "movieimage/mulan.jpg"
+        },
+        {
+            "name": "NARCOS",
+            "image": "movieimage/narcos.jpg"
+        },
+        {
+            "name": "NO TIME TO DIE",
+            "image": "movieimage/no time to die.jpg"
+        },
+        {
+            "name": "RADHE",
+            "image": "movieimage/radhe.jpg"
+
+        },
+        {
+            "name": "SEE",
+            "image": "movieimage/see.jpg"  
+        },
+        {
+            "name": "SHERLOCK",
+            "image": "movieimage/sherlock.jpg"  
+        },
+        {
+            "name": "THOR",
+            "image": "movieimage/thor love.jpg"  
+        },
+        {
+            "name": "THUMB",
+            "image": "movieimage/thumb1.jpg"  
+        },
+        {
+            "name": "WITCHER",
+            "image": "movieimage/witcher.jpg"  
+        },
+        {
+            "name": "WONDER WOMEN",
+            "image": "movieimage/wwoman.jpg"  
+        }
+    ],
+"suggested": [
+    {
+        "name": "BLACK WIDOW ",
+        "image": "movieimage/balckwidowthumb.jpg"
+    },
+    {
+        "name": "BLACK ADAM",
+        "image": "movieimage/black adam.jpg"
+    },
+    {
+        "name": "blood Shot",
+        "image": "movieimage/bloodshot.jpg"
+    },
+    {
+        "name": "CAPTIAN MARVEL",
+        "image": "movieimage/capmarvel.jpg"
+    },
+    {
+        "name": "FALLOUT",
+        "image": "movieimage/fallout.jpg"
+    },
+    {
+        "name": "JUMANJI",
+        "image": "movieimage/jumanji.jpg"
+    },
+    {
+        "name": "NEVER",
+        "image": "seriesimage/never.jpg"
+    },
+    {
+        "name": "SNOWP",
+        "image": "seriesimage/snowp.jpg"
+    },
+    {
+        "name": "VAMPIRE",
+        "image": "seriesimage/vampire.jpg"
+    },
+    {
+        "name": "VERGIN",
+        "image": "seriesimage/vergin.jpg"
+    },
+    {
+        "name": "WANDA VISION",
+        "image": "seriesimage/wanda.jpg"
+    },
+    {
+        "name": "WATCH",
+        "image": "seriesimage/watch.jpg"
+    }
+],
+"comingsoon": [
+    {
+        "name": "BLACK WIDOW ",
+        "image": "movieimage/balckwidowthumb.jpg"
+    },
+    {
+        "name": "BLACK ADAM",
+        "image": "movieimage/black adam.jpg"
+    },
+    {
+        "name": "BLOOD SHOT",
+        "image": "movieimage/bloodshot.jpg"
+    },
+    {
+        "name": "LOKI",
+        "image": "movieimage/loki.jpg"
+    },
+    {
+        "name": "THOR Love and Thunder",
+        "image": "movieimage/thor love.jpg"  
+    },
+    {
+        "name": "WONDER WOMEN",
+        "image": "movieimage/wwoman.jpg"  
+    }
+]
+}
